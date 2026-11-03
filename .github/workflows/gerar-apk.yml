@@ -24,7 +24,7 @@ jobs:
           java-version: '17'
 
       - name: Preparar SDK Android
-        uses: android-actions/setup-android@v3
+        uses: android-actions/setup-android@v4
 
       - name: Instalar API Android 35
         run: sdkmanager 'platforms;android-35' 'build-tools;35.0.0'
